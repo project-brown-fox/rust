@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": false,
+		"[rust]": {
+			"editor.defaultFormatter": "rust-lang.rust-analyzer",
+			"editor.formatOnSave": true,
+		},
+		"github.copilot.editor.enableAutoCompletions": false,
+		"files.trimFinalNewlines": true,
+		"files.trimTrailingWhitespace": true,
+		"rust-analyzer.typing.continueCommentsOnNewline": true,
+		"rust-analyzer.diagnostics.styleLints.enable": true,
+		"rust-analyzer.inlayHints.implicitDrops.enable": false,
+		"rust-analyzer.restartServerOnConfigChange": true
+	},
+	"extensions": {
+		"recommendations": [
+			"panicbit.cargo",
+			"tamasfe.even-better-toml",
+			"1yib.rust-bundle",
+			"dustypomerleau.rust-syntax"
+		]
+	}
+}

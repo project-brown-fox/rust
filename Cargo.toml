@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "common", "services/graphql", "services/rest", "services/websocket", "services/worker",
+]
+resolver = "2"
